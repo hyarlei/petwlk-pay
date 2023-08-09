@@ -1,12 +1,10 @@
 {
   "name": "pix-pet-walk",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server.ts",
-    "build": "tsc",
-    "start": "node server.js"
+    "vercel-build": "tsc"
   },
   "dependencies": {
     "@types/cors": "^2.8.13",
